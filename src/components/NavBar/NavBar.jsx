@@ -4,13 +4,13 @@ const NavBar = () => {
     const links = (
       <>
         <li>
-          <a>
+         
             <NavLink to='/'>Home</NavLink>
-          </a>
+         
         </li>
 
         <li>
-          <a>Item 3</a>
+          <NavLink to='/listedBooks'>Listed Books</NavLink>
         </li>
       </>
     );
